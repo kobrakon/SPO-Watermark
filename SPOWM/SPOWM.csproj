@@ -10,41 +10,44 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="0Harmony20">
+      <HintPath>..\..\..\..\..\Games\SPO\BepInEx\core\0Harmony20.dll</HintPath>
+    </Reference>
     <Reference Include="Aki.Common">
-      <HintPath>dependencies\Aki.Common.dll</HintPath>
+      <HintPath>..\..\..\..\..\Games\SPO\EscapeFromTarkov_Data\Managed\Aki.Common.dll</HintPath>
     </Reference>
     <Reference Include="Aki.Reflection">
-      <HintPath>dependencies\Aki.Reflection.dll</HintPath>
+      <HintPath>..\..\..\..\..\Games\SPO\EscapeFromTarkov_Data\Managed\Aki.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>dependencies\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\..\Games\SPO\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>dependencies\BepInEx.dll</HintPath>
+      <HintPath>..\..\..\..\..\Games\SPO\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="Comfort">
-      <HintPath>dependencies\Comfort.dll</HintPath>
+      <HintPath>..\..\..\..\..\Games\SPO\EscapeFromTarkov_Data\Managed\Comfort.dll</HintPath>
+    </Reference>
+    <Reference Include="HarmonyXInterop">
+      <HintPath>..\..\..\..\..\Games\SPO\BepInEx\core\HarmonyXInterop.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>dependencies\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\Games\SPO\EscapeFromTarkov_Data\Managed\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>dependencies\UnityEngine.dll</HintPath>
-    </Reference>
-        <Reference Include="UnityEngine.CoreModule">
-      <HintPath>dependencies\UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AudioModule">
-      <HintPath>dependencies\UnityEngine.AudioModule.dll</HintPath>
-    </Reference>
-    <Reference Include="TMPro">
-      <HintPath>dependencies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Harmony">
-      <HintPath>dependencies/0Harmony.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\..\Games\SPO\EscapeFromTarkov_Data\Managed\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="System.IO">
       <HintPath>dependencies\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\Games\SPO\EscapeFromTarkov_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\Games\SPO\EscapeFromTarkov_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\Games\SPO\EscapeFromTarkov_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
 
